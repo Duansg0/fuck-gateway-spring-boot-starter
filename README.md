@@ -1,0 +1,1 @@
+# fuck-gateway-spring-boot-starter
