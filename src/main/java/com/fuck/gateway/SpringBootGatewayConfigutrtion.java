@@ -2,6 +2,7 @@ package com.fuck.gateway;
 
 import com.fuck.gateway.server.GatewayInitializedServer;
 import com.fuck.gateway.server.GatewayServer;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
@@ -22,7 +23,8 @@ public class SpringBootGatewayConfigutrtion {
     @Bean
     public GatewayServer initStart(){
         return GatewayInitializedServer.builder()
-                .port(8080)
                 .build();
     }
+
+
 }
