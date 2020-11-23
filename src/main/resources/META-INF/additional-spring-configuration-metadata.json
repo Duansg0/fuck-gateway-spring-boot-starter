@@ -1,0 +1,24 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.fuck.gateway.SpringBootGatewayPropertiesConfigutrtion",
+      "name": "fuck.gateway",
+      "type": "com.fuck.gateway.SpringBootGatewayPropertiesConfigutrtion"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.fuck.gateway.SpringBootGatewayPropertiesConfigutrtion",
+      "defaultValue": 0,
+      "name": "fuck.gateway.id",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.fuck.gateway.SpringBootGatewayPropertiesConfigutrtion",
+      "name": "fuck.gateway.name",
+      "type": "java.lang.String",
+      "defaultValue": "fuck-gateway"
+    }
+  ]
+}
